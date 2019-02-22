@@ -1,0 +1,550 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral (Default) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEUD)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_DEFAULT
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUT_DIALOG DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,16,20,20
+    LTEXT           "",IDC_LABEL_STX2DM,35,7,122,8,SS_NOPREFIX
+    LTEXT           "",IDC_LABEL_ALDONIO,35,19,134,8,SS_NOPREFIX,
+                    WS_EX_TRANSPARENT
+    LTEXT           "",IDC_LABEL_THANKS,35,31,188,17,SS_NOPREFIX
+    DEFPUSHBUTTON   "",IDOK,178,7,50,16,WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Neutral (Default) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)\r\n"
+    "LANGUAGE 10, 3\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""afxres.rc""         // Componentes estándar\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_OK                  "OK"
+    IDS_LABEL_STX           "STX to convert:"
+    IDS_STX_FILE            "Steps.stx"
+    IDS_BROWSE_STX          "Browse..."
+    IDS_LABEL_KSFFOLDER     "Destination folder:"
+    IDS_KSF_FOLDER          "./"
+    IDS_BROWSE_KSF          "Browse..."
+    IDS_TITLE_MODES         "Modes and filenames:"
+    IDS_BUTTON_DEFAULT_FILENAMES "Default"
+    IDS_BUTTON_KIU          "KIU"
+    IDS_BUTTON_DM           "DirectMove"
+    IDS_BUTTON_SELECTALL    "Select All"
+    IDS_BUTTON_CRAZY        "Only Crazy"
+    IDS_CHECK_PRACTICE      "Practice"
+    IDS_CHECK_NORMAL        "Normal"
+    IDS_CHECK_HARD          "Hard"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About STX 2 DM..."
+    IDS_STX_DIALOG          "STX to DirectMove's KSF Converter v"
+    IDS_ABOUT_DIALOG        "About STX 2 DM"
+    IDS_KIU_FILENAME_NORMAL "Easy_1.ksf"
+    IDS_KIU_FILENAME_HARD   "Hard_1.ksf"
+    IDS_KIU_FILENAME_NIGHTMARE "CrazyDouble.ksf"
+    IDS_KIU_FILENAME_CRAZY  "Crazy_1.ksf"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CHECK_NIGHTMARE     "Nightmare"
+    IDS_CHECK_CRAZY         "Crazy"
+    IDS_CHECK_FULLDOUBLE    "Freestyle"
+    IDS_CHECK_HALFDOUBLE    "Half Double"
+    IDS_CHECK_DIVISION      "Division"
+    IDS_CHECK_LIGHTMAP      "Lightmap"
+    IDS_DIFFICULTY_PRACTICE "0"
+    IDS_DIFFICULTY_NORMAL   "0"
+    IDS_DIFFICULTY_HARD     "0"
+    IDS_DIFFICULTY_NIGHTMARE "0"
+    IDS_DIFFICULTY_CRAZY    "0"
+    IDS_DIFFICULTY_FULLDOUBLE "0"
+    IDS_DIFFICULTY_HALFDOUBLE "0"
+    IDS_DIFFICULTY_DIVISION "0"
+    IDS_DIFFICULTY_LIGHTMAP "0"
+    IDS_FILENAME_PRACTICE   "Practice.ksf"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_FILENAME_NORMAL     "Normal.ksf"
+    IDS_FILENAME_HARD       "Hard.ksf"
+    IDS_FILENAME_NIGHTMARE  "Nightmare.ksf"
+    IDS_FILENAME_CRAZY      "Crazy.ksf"
+    IDS_FILENAME_FULLDOUBLE "Freestyle.ksf"
+    IDS_FILENAME_HALFDOUBLE "Halfdouble.ksf"
+    IDS_FILENAME_DIVISION   "Division.ksf"
+    IDS_FILENAME_LIGHTMAP   "Lightmap.ksf"
+    IDS_TITLE_STXINFO       "STX's information:"
+    IDS_LABEL_ARTIST        "Artist:"
+    IDS_TEXT_ARTIST         "Unknown Artist"
+    IDS_LABEL_SONG          "Song:"
+    IDS_TEXT_SONG           "Unknown Track"
+    IDS_LABEL_AUTHOR        "StepMaker:"
+    IDS_TEXT_AUTHOR         "www.mxpumpers.net"
+    IDS_TITLE_OPTIONS       "Options:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CHECK_OVERWRITE     "Overwrite files"
+    IDS_CHECK_SYNCRO        "Syncronize P1 && P2"
+    IDS_BUTTON_ADV_OPTIONS  "Advanced Options"
+    IDS_CONVERTFILE         "Convert to KSF"
+    IDS_BATCHMODE           "Convert several STXs"
+    IDS_LABEL_STX2DM        "STX to KSFDM Converter version "
+    IDS_LABEL_ALDONIO       "Made by Aldo_MX. http://www.aldo.mx"
+    IDS_LABEL_THANKS        "Special thanks to GALOP1N for reversing STX format and iNetZ for the BV's chiptune that I still don't have xD."
+    IDS_SUCCESS             "Converted successfully to KSF!"
+    IDS_HALF_SUCCESS        "Converted successfully missing KSF files. Existing KSFs were not replaced."
+    IDS_NO_SUCCESS          "Could not convert any KSF since every selected mode already exists."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_KIU_FILENAME_FULLDOUBLE "Double.ksf"
+    IDS_KIU_FILENAME_HALFDOUBLE "HalfDouble.ksf"
+    IDS_DM_FILENAME_PRACTICE "DMEasy.ksf"
+    IDS_DM_FILENAME_NORMAL  "DMNormal.ksf"
+    IDS_DM_FILENAME_HARD    "DMHard.ksf"
+    IDS_DM_FILENAME_NIGHTMARE "DMNightmare.ksf"
+    IDS_DM_FILENAME_CRAZY   "DMCrazy.ksf"
+    IDS_DM_FILENAME_FULLDOUBLE "DMFreestyle.ksf"
+    IDS_DM_FILENAME_HALFDOUBLE "DMHalfdouble.ksf"
+    IDS_DM_FILENAME_DIVISION "DMWild.ksf"
+    IDS_FILE_STX            "STF4 Step Document (*.stx)"
+    IDS_FILE_ALL            "All Files"
+    IDS_BROWSE              "Select the folder where the KSFs will get saved:"
+    IDS_BROWSEFORSTX        "Select the folder where the STXs are located:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERROR_INVALIDSTX    "The selected file is not a STX file."
+    IDS_ERROR_CANTOPEN      "Can not open the selected file."
+    IDS_ERROR_NOTSTX        "You have not selected a file to convert."
+    IDS_ERROR_NOFOLDER      "You have not selected the destination folder."
+    IDS_ERROR_NOMODES       "You have not selected any difficulty to convert."
+    IDS_ERROR_EMPTYFILENAME "You have not specified a valid destination KSF Filename."
+    IDS_ERROR_NOARTIST      "You have not specified an artist."
+    IDS_ERROR_NOSONG        "You have not specified the song's title."
+    IDS_ERROR_CANTSAVE      "Can not save the following file: "
+    IDS_ERROR_NOFOLDERSTX   "The selected folder does not have any STX file."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral (Sys. Default) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEUSD)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_SYS_DEFAULT
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_STX_DIALOG DIALOGEX 0, 0, 240, 200
+STYLE DS_ABSALIGN | DS_LOCALEDIT | DS_SETFONT | DS_MODALFRAME | 
+    DS_SETFOREGROUND | DS_FIXEDSYS | DS_NOFAILCREATE | DS_CENTER | 
+    WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_ACCEPTFILES
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "",IDC_CONVERTFILE,138,143,95,32
+    PUSHBUTTON      "",IDC_BATCHMODE,138,177,95,16
+    RTEXT           "",IDC_LABEL_STX,7,8,64,8
+    EDITTEXT        IDC_STX_FILE,75,7,104,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "",IDC_BROWSE_STX,183,7,50,12,NOT WS_TABSTOP
+    RTEXT           "",IDC_LABEL_KSFFOLDER,7,21,64,8
+    EDITTEXT        IDC_KSF_FOLDER,75,20,104,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "",IDC_BROWSE_KSF,183,20,50,12,NOT WS_TABSTOP
+    GROUPBOX        "",IDC_TITLE_MODES,7,35,124,158
+    PUSHBUTTON      "",IDC_BUTTON_DEFAULT_FILENAMES,12,45,35,12
+    PUSHBUTTON      "",IDC_BUTTON_KIU,50,45,24,12
+    PUSHBUTTON      "",IDC_BUTTON_DM,77,45,49,12
+    PUSHBUTTON      "",IDC_BUTTON_SELECTALL,12,59,68,12
+    PUSHBUTTON      "",IDC_BUTTON_CRAZY,83,59,43,12
+    CONTROL         "",IDC_CHECK_PRACTICE,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | BS_CENTER | WS_TABSTOP,12,76,52,8
+    CONTROL         "",IDC_CHECK_NORMAL,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | BS_CENTER | WS_TABSTOP,12,89,52,8
+    CONTROL         "",IDC_CHECK_HARD,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | 
+                    BS_CENTER | WS_TABSTOP,12,102,52,8
+    CONTROL         "",IDC_CHECK_NIGHTMARE,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | BS_CENTER | WS_TABSTOP,12,115,52,8
+    CONTROL         "",IDC_CHECK_CRAZY,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | BS_CENTER | WS_TABSTOP,12,128,52,8
+    CONTROL         "",IDC_CHECK_FULLDOUBLE,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | BS_CENTER | WS_TABSTOP,12,141,52,8
+    CONTROL         "",IDC_CHECK_HALFDOUBLE,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | BS_CENTER | WS_TABSTOP,12,154,52,8
+    CONTROL         "",IDC_CHECK_DIVISION,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | BS_CENTER | WS_TABSTOP,12,167,52,8
+    CONTROL         "",IDC_CHECK_LIGHTMAP,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | BS_CENTER | WS_TABSTOP,12,180,52,8
+    EDITTEXT        IDC_DIFFICULTY_PRACTICE,67,74,15,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DIFFICULTY_NORMAL,67,87,15,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DIFFICULTY_HARD,67,100,15,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DIFFICULTY_NIGHTMARE,67,113,15,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DIFFICULTY_CRAZY,67,126,15,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DIFFICULTY_FULLDOUBLE,67,139,15,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DIFFICULTY_HALFDOUBLE,67,152,15,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DIFFICULTY_DIVISION,67,165,15,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DIFFICULTY_LIGHTMAP,67,178,15,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FILENAME_PRACTICE,83,74,43,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FILENAME_NORMAL,83,87,43,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FILENAME_HARD,83,100,43,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FILENAME_NIGHTMARE,83,113,43,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FILENAME_CRAZY,83,126,43,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FILENAME_FULLDOUBLE,83,139,43,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FILENAME_HALFDOUBLE,83,152,43,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FILENAME_DIVISION,83,165,43,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FILENAME_LIGHTMAP,83,178,43,12,ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_TITLE_STXINFO,138,35,95,53
+    RTEXT           "",IDC_LABEL_ARTIST,141,47,37,8
+    EDITTEXT        IDC_TEXT_ARTIST,180,46,48,12,ES_AUTOHSCROLL
+    RTEXT           "",IDC_LABEL_SONG,141,60,37,8
+    EDITTEXT        IDC_TEXT_SONG,180,59,48,12,ES_AUTOHSCROLL
+    RTEXT           "",IDC_LABEL_AUTHOR,141,73,37,8
+    EDITTEXT        IDC_TEXT_AUTHOR,180,72,48,12,ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_TITLE_OPTIONS,138,90,95,50
+    CONTROL         "",IDC_CHECK_OVERWRITE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,143,101,85,8
+    CONTROL         "",IDC_CHECK_SYNCRO,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,143,112,85,8
+    PUSHBUTTON      "",IDC_BUTTON_ADV_OPTIONS,143,123,83,12,WS_DISABLED
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_STX_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 233
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "STX.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "0c0a04e4"
+        BEGIN
+            VALUE "Comments", "Aldo_MX"
+            VALUE "CompanyName", "http://www.aldo.mx"
+            VALUE "FileDescription", "STX2DM by Aldo_MX"
+            VALUE "FileVersion", "1.0.0.0"
+            VALUE "InternalName", "STX2DM"
+            VALUE "LegalCopyright", "© Aldo_MX"
+            VALUE "OriginalFilename", "STX2DM.exe"
+            VALUE "ProductName", "STX 2 DM"
+            VALUE "ProductVersion", "1.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0xc0a, 1252
+    END
+END
+
+#endif    // Neutral (Sys. Default) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_OK                  "Aceptar"
+    IDS_LABEL_STX           "STX a convertir:"
+    IDS_STX_FILE            "Pasos.stx"
+    IDS_BROWSE_STX          "Examinar..."
+    IDS_LABEL_KSFFOLDER     "Carpeta de destino:"
+    IDS_KSF_FOLDER          "./"
+    IDS_BROWSE_KSF          "Examinar..."
+    IDS_TITLE_MODES         "Modos y nombres de archivo:"
+    IDS_BUTTON_DEFAULT_FILENAMES "Default"
+    IDS_BUTTON_KIU          "KIU"
+    IDS_BUTTON_DM           "DirectMove"
+    IDS_BUTTON_SELECTALL    "Seleccionar Todos"
+    IDS_BUTTON_CRAZY        "Solo Crazy"
+    IDS_CHECK_PRACTICE      "Practice"
+    IDS_CHECK_NORMAL        "Normal"
+    IDS_CHECK_HARD          "Hard"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&Acerca de STX 2 DM..."
+    IDS_STX_DIALOG          "Convertidor STX a KSF DirectMove v"
+    IDS_ABOUT_DIALOG        "Acerca de STX 2 DM"
+    IDS_KIU_FILENAME_NORMAL "Easy_1.ksf"
+    IDS_KIU_FILENAME_HARD   "Hard_1.ksf"
+    IDS_KIU_FILENAME_NIGHTMARE "CrazyDouble.ksf"
+    IDS_KIU_FILENAME_CRAZY  "Crazy_1.ksf"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CHECK_NIGHTMARE     "Nightmare"
+    IDS_CHECK_CRAZY         "Crazy"
+    IDS_CHECK_FULLDOUBLE    "Freestyle"
+    IDS_CHECK_HALFDOUBLE    "Half Double"
+    IDS_CHECK_DIVISION      "Division"
+    IDS_CHECK_LIGHTMAP      "Lightmap"
+    IDS_DIFFICULTY_PRACTICE "0"
+    IDS_DIFFICULTY_NORMAL   "0"
+    IDS_DIFFICULTY_HARD     "0"
+    IDS_DIFFICULTY_NIGHTMARE "0"
+    IDS_DIFFICULTY_CRAZY    "0"
+    IDS_DIFFICULTY_FULLDOUBLE "0"
+    IDS_DIFFICULTY_HALFDOUBLE "0"
+    IDS_DIFFICULTY_DIVISION "0"
+    IDS_DIFFICULTY_LIGHTMAP "0"
+    IDS_FILENAME_PRACTICE   "Practice.ksf"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_FILENAME_NORMAL     "Normal.ksf"
+    IDS_FILENAME_HARD       "Hard.ksf"
+    IDS_FILENAME_NIGHTMARE  "Nightmare.ksf"
+    IDS_FILENAME_CRAZY      "Crazy.ksf"
+    IDS_FILENAME_FULLDOUBLE "Freestyle.ksf"
+    IDS_FILENAME_HALFDOUBLE "Halfdouble.ksf"
+    IDS_FILENAME_DIVISION   "Division.ksf"
+    IDS_FILENAME_LIGHTMAP   "Lightmap.ksf"
+    IDS_TITLE_STXINFO       "Información del STX:"
+    IDS_LABEL_ARTIST        "Artista:"
+    IDS_TEXT_ARTIST         "Intérprete desconocido"
+    IDS_LABEL_SONG          "Canción:"
+    IDS_TEXT_SONG           "Pista desconocida"
+    IDS_LABEL_AUTHOR        "StepMaker:"
+    IDS_TEXT_AUTHOR         "www.mxpumpers.net"
+    IDS_TITLE_OPTIONS       "Opciones:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CHECK_OVERWRITE     "Sobreescribir archivos"
+    IDS_CHECK_SYNCRO        "Sincronizar P1 y P2"
+    IDS_BUTTON_ADV_OPTIONS  "Opciones Avanzadas"
+    IDS_CONVERTFILE         "Convertir a KSF"
+    IDS_BATCHMODE           "Convertir varios STXs"
+    IDS_LABEL_STX2DM        "Convertidor STX a KSFDM versión "
+    IDS_LABEL_ALDONIO       "Hecho por Aldo_MX. http://www.aldo.mx"
+    IDS_LABEL_THANKS        "Agradecimientos especiales a GALOP1N por revertir los STX y a iNetZ por el chiptune de BV que aun no tengo xD."
+    IDS_SUCCESS             "¡Convertido exitosamente a KSF!"
+    IDS_HALF_SUCCESS        "Algunos KSF fueron convertidos exitosamente. Los ya existentes no fueron reemplazados."
+    IDS_NO_SUCCESS          "No se pudo convertir ningún KSF porque todos los modos seleccionados existían anteriormente."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_KIU_FILENAME_FULLDOUBLE "Double.ksf"
+    IDS_KIU_FILENAME_HALFDOUBLE "HalfDouble.ksf"
+    IDS_DM_FILENAME_PRACTICE "DMEasy.ksf"
+    IDS_DM_FILENAME_NORMAL  "DMNormal.ksf"
+    IDS_DM_FILENAME_HARD    "DMHard.ksf"
+    IDS_DM_FILENAME_NIGHTMARE "DMNightmare.ksf"
+    IDS_DM_FILENAME_CRAZY   "DMCrazy.ksf"
+    IDS_DM_FILENAME_FULLDOUBLE "DMFreestyle.ksf"
+    IDS_DM_FILENAME_HALFDOUBLE "DMHalfdouble.ksf"
+    IDS_DM_FILENAME_DIVISION "DMWild.ksf"
+    IDS_FILE_STX            "Archivo de pasos STF4 (*.stx)"
+    IDS_FILE_ALL            "Todos los archivos"
+    IDS_BROWSE              "Selecciona la carpeta donde se almacenarán los KSF:"
+    IDS_BROWSEFORSTX        "Selecciona la carpeta donde se encuentran los STX:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERROR_INVALIDSTX    "El archivo seleccionado no es un STX."
+    IDS_ERROR_CANTOPEN      "No es posible abrir el archivo."
+    IDS_ERROR_NOTSTX        "No ha seleccionado un archivo para convertir."
+    IDS_ERROR_NOFOLDER      "No ha seleccionado una carpeta de destino."
+    IDS_ERROR_NOMODES       "No ha seleccionado las dificultades a convertir."
+    IDS_ERROR_EMPTYFILENAME "No ha especificado un nombre válido para el KSF de destino."
+    IDS_ERROR_NOARTIST      "No ha especificado un artista."
+    IDS_ERROR_NOSONG        "No ha especificado el título de la canción."
+    IDS_ERROR_CANTSAVE      "No se puede guardar el siguiente archivo: "
+    IDS_ERROR_NOFOLDERSTX   "La carpeta seleccionada no contiene archivos STX."
+END
+
+#endif    // Spanish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+LANGUAGE 10, 3
+#pragma code_page(1252)
+#include "afxres.rc"         // Componentes estándar
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
